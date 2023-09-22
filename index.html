@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  
+
+    <title>Kailasha Height</title>
+    <link rel="stylesheet" href="kailash.css" />
+  </head>
+  <body>
+    <script type="text/javascript" src="index.js"></script>
+    <header>
+      
+      <div class="navbar">
+        <div class="logo"><img src="kailashlogo.png" width="100%" height="80px"></div>
+        
+        <ul class="nav_links">
+          <li><a href="Home">Home</a></li>
+
+         
+          <div class="dropdown">
+            <li><a href="Contact us"  class="contact">Contact us</a></li>
+            <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <li><a href="Planning" class="contact">Planning</a></li>  
+            <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <li><a href="Destination" class="contact">Destination</a></li>
+            <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            </div>
+          </div>
+          
+          
+          <div class="dropdown">
+            <li><a href="About us" class="contact">About us</a></li>
+            <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            </div>
+          </div>
+          
+          <div class="dropdown">
+            <li><a href="Accommodation" class="contact">Accommodation</a></li><br>
+            <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            </div>
+          </div>
+
+          
+
+        </ul>
+        <a href="Home" class="action_btn">Get Started</a>
+        <div class="toggle_btn">
+          <a href="Home"><i class="fa-solid fa-bars"></i></a>
+        </div>
+
+      </div>
+      <div class="dropdown_menu open">
+        <li><a href="Home">Home</a></li>
+          <li><a href="Contact us">Contact us</a></li>
+          <li><a href="Planning">Planning</a></li>
+          <li><a href="Destination">Destination</a></li>
+          <li><a href="About us">About us</a></li>
+          <li><a href="Accommodation">Accommodation</a></li>
+          <li><a href="Home" class="action_btn">Get Started</a></li>
+      </div>
+     
+    </header>
+    <div class="content">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="heading">
+              <h1>Kailasha Height</h1>
+              <h3>Camp Area</h3>
+              <div class="calendar">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <label for="CHECK-IN:"  onsubmit="sendEmail() ;reset (); return false">CHECK-IN :</label> <br>
+                    <input type="date" id="newsletter" name="IN"><br><br>
+                    
+
+                  </div>
+                  <div class="col-sm-6">
+                    <label for="CHECK-OUT:">CHECK-OUT :</label> <br>
+                    <input type="date" id="newsletter1" name="OUT"><br><br>
+                    
+                  </div>
+                </div>
+                <br><br>
+                <div class="row">
+                  <div class="col-sm-6">
+                    
+                    <form >
+                      <label for="dropdown">GUEST :</label><br>
+                      <input list="Dropdown_list" name="" id="dropdown">
+                      <datalist id="Dropdown_list">
+                        <option value="Adult">
+                        <option value="children">
+                        <option value="infant">
+                         
+
+                        </datalist>
+                    </form>
+                    
+                    
+                    
+                  </div>
+                  <div class="col-sm-6">
+                    <form >
+                      <label for="dropdown">ACCOMMODATION :</label><br>
+                      <input list="Dropdowns" name="" id="dropdown">
+                      <datalist id="Dropdowns">
+                        <option value="Tent">
+                        <option value="Hotel">
+                        </datalist>
+                        </form>
+                  </div>
+                  
+                </div>
+                <button type="button"  onsubmit="sendEmail() ;reset (); return false" class="btn btn-secondary btn-lg btn-block" id="proceed_button" style="font-family: Georgia, 'Times New Roman', Times, serif;">Proceed</button>
+              
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="container-fluid">
+              <div class="right-image">
+                <img class = "img" src="img15.jpg" width="100%" height="500px">
+              </div>
+              
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+        
+    </div>
+    <div class="camping" id="Amenities">
+      <div class="word">
+        <h1 data-text="Awsome&nbsp;Amenities..."> Awsome&nbsp;Amenities...</h1>
+      </div>
+      <div class="image">
+        <div class="container">
+          <div class="img1">
+            <div class="container-fluid">
+              <img src="img1.jpg">
+            </div>
+           
+          </div>
+        </div>
+        <div class="container">
+          <div class="icons" id="Activities">
+            <div class="row">
+              <div class="col-sm-3">
+                <span class="material-symbols-outlined" style="font-size: 100px;">
+                  restaurant  
+                  </span><br>
+                  <p class="para">Food</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="material-symbols-outlined" style="font-size: 100px;">
+                  local_fire_department
+                  </span>
+                  <p class="para">Bonfire</p>
+              </div>
+              <div class="col-sm-3">
+                <span class="material-symbols-outlined" style="font-size: 100px;">
+                  hiking
+                  </span>
+                  <p class="para">hiking</p>
+              </div>
+              <div class="col-sm-3">
+              <div class="sleeping-bag">
+                <img src="sleeping-bag.png" height="90px">
+                
+              </div>
+              <p class="para1">sleeping-bag</p> 
+                 
+              </div>
+            </div>
+            
+          </div>
+         
+        </div>
+      </div>
+          
+    </div>
+    <div class="new_event" id="events">
+      <h3  class="events">Our New Events</h3>
+      <div class="events_content">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <img src="img6.jpg" width="100%" height="400px">
+              <p class="river">River Side Camping</p>
+            </div>
+            <div class="col-sm-6">
+              <img src="img21.jpg" width="100%" height="400px" class="event">
+              <p class="river">Rock Climbing</p>
+            </div>
+          </div>
+        </div>
+      </div><br>
+<hr>
+    </div>
+    <div class="comment">
+      <form name="myform" onsubmit="return validateForm()" method="post" >
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-9">
+            <h3 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Leave Comment</h3>
+          <div class="row">
+           <div class="col-sm-6">
+            <input type="text" class="form-control" name="fname" id="name" placeholder="YourName*"style="font-family: 'Lilita One', sans-serif;"><span class="form_error" id="valid_name"></span>
+           </div>
+           <div class="col-sm-6">
+            <input type="email" class="form-control" name="fname" id="name" placeholder="YourEmail*" style="font-family: 'Lilita One', sans-serif;"><span class="form_error" id="valid_email"></span>
+           </div>
+           <textarea class="form-control" rows="3" name="fname" id="text" placeholder="Your Comment*"></textarea>
+          </div>
+          <input type="checkbox" id="checkbox" name="check" value="check">
+          <label for="vehicle1"> By using this form you agree with the storage and handling of your data by this website. Privacy Policy*</label><br><br>
+          <input type="button" class="btn" value="Leave Comment" style="font-family: 'Lilita One', sans-serif;" >
+        </div><br>
+          
+          <div class="col-sm-3">
+            <div class="comment_image">
+              <img src="img39.jpg" width="100%">
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      </form>
+    </div>
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+            <div class="coloumn" style="background-color:#aaa; text-indent: 30px;"><b style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size:20px;">Information</b>
+            <ul class="information" style="margin-top: 30px;text-indent: 30px;">
+              <li><a href="#">Amenities</a></li><br>
+              <li><a href="#Activities">Activities</a></li><br>
+              <li><a href="#">Resort Map</a></li><br>
+              <li><a href="#events">Camping_Options</a></li><br>
+              <li><a href="#">Reservations</a></li>
+            </ul>
+          </div>
+            <div class="coloumn" style="background-color:#bbb; text-indent: 30px;"><b style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size:20px;">AboutCamp</b>
+              <ul class="information" style="margin-top: 30px;text-indent: 30px;">
+                <li><a href="#">About Us</a></li><br>
+                <li><a href="#">Our News</a></li><br>
+                <li><a href="#">Our Team</a> </li><br>
+                <li><a href="#">Company Info</a></li><br>
+              </ul>
+            </div>
+            <div class="coloumn">
+              <ul class="information" style="margin-top: 30px;">
+                <img src="kailashlogo.png" width="100%" >
+              </ul>
+            </div>
+            <div class="coloumn"style="background-color:#ccc;text-indent: 30px;"><b style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size:20px;">Reservations</b>
+              <ul class="information" style="margin-top: 30px;text-indent: 30px;" id="information">
+                <li><a href="#">Rates</a></li><br>
+                <li><a href="#">Where To Stay</a></li><br>
+                <li><a href="#">Gallery</a></li><br>
+                <li><a href="#">Reserve Now</a></li><br>
+              </ul>
+            </div>
+            <div class="coloumn"style="background-color:#ddd;text-indent: 30px;"><b style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size:20px;">Activities</b>
+              <ul class="information" style="margin-top: 30px;text-indent: 30px;">
+                <li><a href="#">Treaking</a></li><br>
+                <li><a href="#">Guidence</a></li><br>
+                <li><a href="#">Bonfire</a></li><br>
+                <li><a href="#">Rock Climbing</a> </li><br>
+                
+              </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="rights">
+      <p style="color: #aaa;text-align:center;">2023 All Rights Reserved</p>
+      <img src="bottom.png" width="100%" class="picture">
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      function sendEmail(){
+
+        Email.send({
+          Host : "smtp.gmail.com",
+          Username : "priyanshuv461@gmail.com",
+          Password : "PriYanshU@*9568",
+          To : 'vippix23@gmail.com',
+          From : document.getElementById("newsletter").value,
+          From : document.getElementById("newsletter1").value,
+          From : document.getElementById("dropdown").value,
+          From : document.getElementById("proceed_button").value,
+          Subject : "New Contact Details",
+          Body : "Check in :"+ document.getElementById("newsletter").value
+                  +"<br> Check out :" +document.getElementById("newsletter1").value
+                  +"<br> Check out :" +document.getElementById("dropdown").value
+                  +"<br> Check out :" +document.getElementById("proceed_button").value
+      }).then(
+        message => alert("Details sent Sucessfully")
+      );
+      }
+
+    </script>
+  </body>
+</html>
